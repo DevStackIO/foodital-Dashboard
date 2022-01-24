@@ -1,0 +1,41 @@
+                
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Pro Regular';
+}
+
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sofia Pro Regular'), url('Sofia Pro Regular Az.woff') format('woff');
+  }
+  
+.home{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .faq-page {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.sign-up {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/asset/loginbg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

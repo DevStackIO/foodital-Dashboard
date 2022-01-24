@@ -1,0 +1,81 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TIM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-spring
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\TIM\AppData\Local\Microsoft\WindowsApps;C:\Users\TIM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\TIM\AppData\Roaming\npm;C:\Users\TIM\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "foodgital",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "firebase": "^9.6.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-icons": "^4.3.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.1",
+      "styled-components": "^5.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DevStackIO/Foodgital.git"
+    },
+    "keywords": [
+      "Food",
+      "Vendor",
+      "delivery",
+      "foodie"
+    ],
+    "author": "springital",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DevStackIO/Foodgital/issues"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

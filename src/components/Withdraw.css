@@ -1,0 +1,181 @@
+.withdraw{
+    padding: 5rem calc((100vw - 1200px) / 2);
+}
+
+.withdraw-container{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.withdraw-amount{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    background: #F7F5F5;
+    border-radius: 24px;
+}
+
+/* .io1{
+    flex: 1;
+}
+
+.io2{
+    flex: 1;
+} */
+
+.Dh1{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #014F53;
+    display: flex;
+}
+
+.te-cpn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.te{
+    background: #FFFFFF;
+    box-shadow: -3px 6px 161px -30px rgba(255, 87, 77, 0.07);
+    border-radius: 24px;
+    padding: 20px 35px 20px 35px;
+}
+
+.te h6{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #878191;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.te h1{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FF574D;
+}
+
+.te li{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF574D;
+}
+
+.hz{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cpn-btn{
+    background: #FF574D;
+    outline: none;
+    border: none;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    color: #fff;
+    box-shadow: -3px 6px 161px -30px rgba(255, 87, 77, 0.07);
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .withdraw-container{
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .withdraw-amount{
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .withdraw-container{
+        width: 95%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .withdraw-amount{
+        gap: 30px;
+        padding: 20px 20px;
+    }
+
+    .te-cpn{
+       gap: 10px;
+    }
+    
+    .te{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .te h1{
+        font-size: 30px;
+        line-height: 36px;
+        color: #FF574D;
+    }
+
+    .hz{
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 280px){
+    .withdraw-amount{
+        border-radius: 8px;
+        gap: 30px;
+        padding: 20px 8px;
+    }
+
+    .te-cpn{
+       gap: 5px;
+    }
+    
+    .te{
+        padding: 15px 8px 15px 8px;
+        border-radius: 5px;
+    }
+
+    .te h6{
+        font-size: 15px;
+    }
+    
+    .te h1{
+        font-size: 20px;
+        line-height: 36px;
+        color: #FF574D;
+        text-align: center;
+    }
+    
+    .te li{
+        width: 40px;
+        height: 40px;
+    }
+
+    .hz{
+        gap: 20px;
+    }
+}

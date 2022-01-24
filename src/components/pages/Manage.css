@@ -1,0 +1,158 @@
+.welcome{
+    padding: 8rem calc((100vw - 1200px) / 2);
+}
+
+.welcome-container{
+    width: 100%;
+    background: rgba(1, 79, 83, 0.07);
+    border: 0.5px solid #014F53;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.welcome-txt{
+    padding: 25px 20px 30px 40px;
+}
+
+.welcome-txt h1{
+    margin-bottom: 20px;
+    font-family: 'Sofia Pro Regiular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #014F53;
+}
+
+.welcome-txt p{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #333333;
+}
+
+/* Price chart Section */
+
+.price-chart{
+    padding: 5rem calc((100vw - 1200px) / 2);
+}
+
+.pc-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pc-wrap h1{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #014F53;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pc-level{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.level1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.level1 li{
+    list-style: none;
+}
+
+.str-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    content: '';
+}
+
+.str-line ::content{
+    width: 5px;
+    height: 5px;
+    background-color: #333333;
+}
+
+.str-line li{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF574D;
+}
+
+.level3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.level3 li{
+    list-style: none;
+    font-weight: 600;
+}
+
+/* End of price chart */
+@media screen and (max-width: 678px){
+
+    .welcome-container{
+        width: 90%;
+    }
+
+    .welcome-container img{
+        display: none;
+    }
+
+    .pc-wrap{
+        width: 90%;
+    }
+    
+    .pc-wrap h1{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .welcome-container {
+        width: 95%;
+    }
+
+    .pc-wrap{
+        width: 95%;
+    }
+    
+    .pc-wrap h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .pc-level{
+        display: block;
+        gap: 30px;
+    }
+    
+    .level1{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px){
+    
+}

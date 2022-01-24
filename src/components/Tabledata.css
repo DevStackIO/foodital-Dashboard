@@ -1,0 +1,90 @@
+.table-data{
+  padding: 4rem calc((100vw - 1200px) / 2);
+}
+
+.tabledata-container{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.table-data h1{
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #014F53;
+}
+
+.tabledata-container button{
+  background: #FF574D;
+  border-radius: 24px;
+  padding: 20px 60px 20px 60px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-top: 60px;
+}
+
+.table-btn{
+  margin: 0 auto;
+}
+
+.fa-arrow-right{
+  color: #FFFFFF;
+  font-size: medium;
+  margin-left: 30px;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  border-bottom: 2px solid #000;
+}
+
+td, th{
+  text-align: left;
+  padding-top: 23px;
+}
+
+td{
+  border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 768px ){
+  .tabledata-container{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px ){
+  .tabledata-container{
+    width: 95%;
+  }
+
+  .table-data h1{
+    font-size: 40px;
+    line-height: 27px;
+    letter-spacing: 0.1px;
+  }
+
+  .tabledata-container button{
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  
+  
+}

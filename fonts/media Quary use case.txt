@@ -1,0 +1,39 @@
+Get started with Media Queries in no time
+Sep 16, 2019·3 min read
+
+Media queries are an easy way to make web pages responsive. It’s no longer acceptable to create a website that doesn’t adapt to mobile or tablet browsers. Even on a desktop, webpages need to adjust to window size. Best of all, Media queries are possible out of the box with CSS.
+
+Source: solodev
+I like to think of them as bringing conditional programming to CSS. Often the conditionals set are viewport dependent. This is what allows us to design and arrange layouts for a variety of screen sizes and settings.
+How do I write a Media Query?
+All media queries start with @media, followed by the media type. Then include any expressions or conditions required. After that in a code block, all the CSS rules and properties sare written.
+@media <media-type> (expressions) {
+<CSS Rules and properties here>
+}
+You can use the keyword ‘and’ for requiring multiple queries. If you want to set multiple optional conditions, use a comma for the or operator. Finally, the keyword ‘not’ can ve used to alter logic or exclude cases.
+
+Source: varvy
+What Conditions can I set?
+The most common use for media queries involves specifying a dimension. This includes width or height. But it can also be the orientation or aspect ratio. Another one is whether or not the page is in color or monochrome or a specific color index. Some that can help with dark-modes or light levels include well, light-level for the light level of the environment, and prefers-color-scheme, which detects if the user prefers a light or dark color scheme.
+
+Source: devcode
+Media Types
+Media types describe the general category of a device. This is optional, and the default is all. Options include print (if the page is intended for paged materials viewed in print preview mode), screen, or speech (speech synthesizers). Some deprecated media types include tv, projection, handheld, braille, embossed, and aural.
+Media Query Standards
+A great place to start with your media queries is with Bootstrap’s “mobile-first” media query definitions.
+Min-width: 320px (smaller phone viewpoints)
+Min-width: 480px (small devices and most phones)
+Min-width: 768px (most tablets)
+Min-width: 992px (smaller desktop viewpoints)
+Min-width: 1200px (large devices and wide screens)
+How do I test my media queries?
+As any good developer knows, testing is key for software engineering. Some handy tools to test your media queries include:
+BrowserStack will show you how your app looks. BrowserStack provides an accurate emulating experience for each device rendering your app. Not only device types but also device versions.
+GTmetrix will show you how well your app runs on devices. Because webpages display in different orders at different speeds, it’s a good idea to check how this process may look on a variety of device types. GTmetrix allows you to test how the page loads on different browsers and different devices.
+There you have it. A quick introduction to how to media query options, uses, proper syntax, and testing. Happy coding!
+
+ What Google Fonts are Similar to Sofia Pro?
+The most similar fonts from Google Fonts to Sofia Pro are:
+
+Poppins
+Nunito Sans

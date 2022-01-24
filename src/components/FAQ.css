@@ -1,0 +1,123 @@
+.faq{
+    padding: 5rem calc((100vw - 1200px) / 2);
+}
+
+.faq-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq-txt{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #014F53;
+    margin-bottom: 35px;
+}
+
+.faq-box{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.hd1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd1 h1{
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.fa-angle-down{
+    color: #c93838;
+    font-size: medium;
+}
+
+.hd1 p{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.2px;
+    color: #878191;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.faq-btn{
+    background: #FF574D;
+    border-radius: 24px;
+    padding: 20px 60px 20px 60px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+@media screen and (max-width:  768px){
+    .faq-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:  400px){
+    .faq-container{
+        width: 95%;
+    }
+
+    .faq-txt{
+        font-size: 33px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #014F53;
+        margin-bottom: 30px;
+    }
+
+    .faq-box{
+        padding: 15px 20px;
+    }
+    
+    .hd1 h1{
+        font-size: 15px;
+        width: 90% ;
+    }
+    
+    .faq-btn{
+        border-radius: 30px;
+        padding: 20px 40px 20px 40px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-top: 60px;
+    }
+    
+
+}

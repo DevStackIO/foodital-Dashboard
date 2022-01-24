@@ -1,0 +1,320 @@
+.cards {
+  padding: 5rem calc((100vw - 1200px) / 2);
+  background-color: #F7F7F7;
+}
+
+.cards-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cardItem{
+      max-width: 328px;
+      min-width: 280px;
+      height: 271px;
+      background: #ffffff;
+      border: 1px solid #E5E5E5;
+      box-sizing: border-box;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.cardItem h1{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #014F53;
+    margin-top: 10px;
+}
+
+.cardItem > strong{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #014F53;
+}
+
+.cardItem-btn{
+    width: 328px;
+    height: 80px;
+    background-color: #FF574D;
+    border: 1px solid #FF574D;
+    border-radius: 24px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+/*  
+  The Referrer Modal Popup Style
+*/
+body.active-modal{
+  overflow-y: hidden;
+}
+
+.modal, .overlay{
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.overlay{
+  background: rgba(49,49,49,0.8);
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 674px;
+  height: 341px;
+  border-radius: 24px;
+  padding: 30px 50px;
+  border: 1px solid #d9dbdb;
+  background-color: #FFFFFF;
+  z-index: 11;
+  box-shadow: 0px 4px 70px 5px rgba(0, 0, 0, 0.2);
+}
+
+.share-sc h1, .copy-link h1{
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #014F53;
+  padding-bottom: 20px;
+}
+
+.social-icon-sc{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon-sc span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #F7F7F7;
+}
+
+.social-icon-sc span i{
+  color: rgba(255, 87, 77, 0.94);
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.user-link{
+  background-color: rgb(217, 219, 219);
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ico-lk{
+  padding: 0 23px 0 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-link i{
+  color: #878191;
+  font-size: 15px;
+}
+
+.user-link input{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: lowercase;
+  color: #878191;
+  border-left: 3px solid #9b94a3;
+  padding-left: 5px;
+}
+
+.user-link button{
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(247, 89, 102);
+  font-family: 'Sofia Pro Regular';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #FFFFFF;
+  padding: 0 50px;
+}
+
+.close-modal{
+  position: absolute;
+  left: 93.01%;
+  right: 3.39%;
+  top: 7.48%;
+  bottom: 85.19%;
+  border-radius: 50%;
+}
+
+.close-modal i{
+  color: #C4C4C4;
+  cursor: pointer;
+}
+/*  
+  The Referrer Modal Popup Style
+  //END//
+*/
+
+@media screen and (max-width: 768px){
+  .cards-container {
+     flex-direction: column;
+     gap: 40px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .cards-container {
+     flex-direction: column;
+  }
+
+  .modal-content{
+    width: 90%;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px 15px;
+  }
+  
+  .social-icon-sc span{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social-icon-sc span i{
+    font-size: 20px;
+  }
+
+  .user-link{
+    height: 50px;
+  }
+  
+  .ico-lk{
+    padding: 0 10px 0 10px;
+  }
+  
+  .user-link i{
+    font-size: 12px;
+  }
+  
+  .user-link input{
+    width: 100%;
+    font-size: 15px;
+    border-left: 1px solid #9b94a3;
+    padding-left: 3px;
+  }
+  
+  .user-link button{
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 15px;
+  }
+
+  .close-modal{
+    left: 90.01%;
+    top: 4.48%;
+  }
+  
+  
+}
+
+@media screen and (max-width: 300px){
+
+  .modal-content{
+    width: 95%;
+    height: 220px;
+    border-radius: 15px;
+    padding: 8px 10px;
+  }
+  
+  .social-icon-sc span{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icon-sc span i{
+    font-size: 15px;
+  }
+
+  .user-link{
+    height: 35px;
+  }
+  
+  .ico-lk{
+    padding: 0 10px 0 10px;
+  }
+  
+  .user-link i{
+    font-size: 10px;
+  }
+  
+  .user-link input{
+    width: 100%;
+    font-size: 10px;
+    padding-left: 3px;
+  }
+  
+  .user-link button{
+    font-size: 12px;
+    line-height: 10px;
+    padding: 0 13px;
+  }
+
+  .close-modal{
+    left: 90.01%;
+    top: 4.48%;
+  }
+}
